@@ -74,6 +74,7 @@ nav{
   border-radius: 10px;
 }
 .hero-writeup h2{
+  margin-left: 20px;
  padding-top: 100px;
   position: absolute;
   width: 1440px;
@@ -197,7 +198,7 @@ nav{
 
   footer{
     background-image: url("./FooterBackground.png");
-    height: 400px;
+    height: 450px;
     color: white;
     padding-top: 40px;
     padding: 30px;
@@ -216,5 +217,13 @@ nav{
 
   .end{
     padding-top: 40px;
+    margin-top: 20px;
     text-align: center;
+    border-top: 1px solid rgba(30, 64, 175, 1);
+  }
+
+  .blogadd{
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
   }
